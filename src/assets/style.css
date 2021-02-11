@@ -1,0 +1,8 @@
+#pagebody body, div, h1 {
+    
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    color: brown;
+}
+
