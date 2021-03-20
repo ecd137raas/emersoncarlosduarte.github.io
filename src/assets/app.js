@@ -2,7 +2,7 @@ now = new Date
 
   if (now.getHours () >= 0 && now.getHours () < 5)
   {
-    img.src = "../images/kodomo_girl_illust_soft02.jpg";
+    img.src = "./src/assets/images/kodomo_girl_illust_soft02.jpg";
     img.style.width = "150px";
     img.style.height = "150px";
     document.getElementById('imagens').appendChild(img);
