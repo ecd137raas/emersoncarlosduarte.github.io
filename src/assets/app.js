@@ -2,7 +2,7 @@ now = new Date
 
   if (now.getHours () >= 0 && now.getHours () < 5)
   {
-    img.src = "https://www.fumira.jp/cut/kodomo/img2_s/kodomo_girl_illust_soft02.jpg";
+    img.src = "../images/kodomo_girl_illust_soft02.jpg";
     img.style.width = "150px";
     img.style.height = "150px";
     document.getElementById('imagens').appendChild(img);
@@ -11,7 +11,7 @@ now = new Date
   }
           else if (now.getHours () >= 5 && now.getHours () < 12)
   { 
-          const array = new Array ("https://www.fumira.jp/cut/kodomo/img2/kodomo_girl_illust_03.jpg","https://www.fumira.jp/cut/kodomo/img2/kodomo_girl_illust_soft04.jpg", "https://www.fumira.jp/cut/kodomo/img2/kodomo_girl_illust_05.jpg", "https://www.fumira.jp/cut/kodomo/img2/kodomo_girl_illust_06.jpg", "https://www.fumira.jp/cut/kodomo/img2/kodomo_girl_illust_07.jpg", "https://www.fumira.jp/cut/kodomo/img2/kodomo_girl_illust_20.jpg");
+          const array = new Array ("./src/assets/images/kodomo_girl_illust_03.jpg","./src/assets/images/kodomo_girl_illust_soft04.jpg", "./src/assets/images/kodomo_girl_illust_06.jpg", "./src/assets/images/kodomo_girl_illust_05.jpg", "./src/assets/images/kodomo_girl_illust_07.jpg", "./src/assets/images/kodomo_girl_illust_20.jpg");
             for (const result in array) {
               var img = document.createElement("IMG");
               img.src = array[result];
@@ -24,7 +24,7 @@ now = new Date
   }
           else if (now.getHours () >= 12 && now.getHours () < 18)
   { 
-          const array = new Array ("https://www.fumira.jp/cut/kodomo/img2/kodomo_girl_illust_16.jpg","https://www.fumira.jp/cut/kodomo/img2/kodomo_girl_illust_soft15.jpg", "https://www.fumira.jp/cut/kodomo/img2/kodomo_girl_illust_08.jpg","https://www.fumira.jp/cut/kodomo/img2/kodomo_girl_illust_18.jpg","https://www.fumira.jp/cut/kodomo/img2/kodomo_girl_illust_12.jpg", "https://www.fumira.jp/cut/kodomo/img2/kodomo_illust-20.jpg");
+          const array = new Array ("./src/assets/images/kodomo_girl_illust_16.jpg","./src/assets/images/kodomo_girl_illust_soft15.jpg", "./src/assets/images/kodomo_girl_illust_08.jpg","./src/assets/images/kodomo_girl_illust_18.jpg","./src/assets/images/kodomo_girl_illust_12.jpg", "./src/assets/images/kodomo_illust-20.jpg");
             for (const result in array) {
               var img = document.createElement("IMG");
               img.src = array[result];
@@ -37,7 +37,7 @@ now = new Date
   }
   else
   { 
-    const array = new Array ("https://www.fumira.jp/cut/kodomo/img2/kodomo_girl_illust_22.jpg","https://www.fumira.jp/cut/kodomo/img2/kodomo_girl_illust_soft15.jpg","https://www.fumira.jp/cut/kodomo/img2/kodomo_girl_illust_18.jpg","https://www.fumira.jp/cut/kodomo/img2/kodomo_girl_illust_20.jpg","https://www.fumira.jp/cut/kodomo/img2/kodomo_girl_illust_02.jpg");
+    const array = new Array ("./src/assets/images/kodomo_girl_illust_22.jpg","./src/assets/images/kodomo_girl_illust_soft15.jpg","./src/assets/images/kodomo_girl_illust_18.jpg","./src/assets/images/kodomo_girl_illust_20.jpg","./src/assets/images/kodomo_girl_illust_02.jpg");
     for (const result in array) {
       var img = document.createElement("IMG");
       img.src = array[result];
