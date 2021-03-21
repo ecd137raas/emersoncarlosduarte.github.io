@@ -6,3 +6,16 @@
     color: brown;
 }
 
+.pagebody figure {
+        border: 1px #cccccc solid;
+        padding: 4px;
+        margin: auto;
+}
+
+.pagebody figcaption {
+        background-color: rgb(110, 31, 104);
+        color: white;
+        font-style: normal;
+        padding: 2px;
+        text-align: center;
+}
