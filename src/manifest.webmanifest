@@ -1,9 +1,16 @@
 {
-    "short_name": "Duda Fumira",
-    "name": "Quadro baseado no reforço do comportamento para criar rotinas para as crianças autistas",
-    "start_url": "/",
-    "background_color": "#3367D6",
-    "theme_color": "#3367D6",
+    "short_name": "Duda",
+    "name": "Duda Fumira",
+    "start_url": ".",
     "display": "standalone",
-    "scope": "/"
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "description": "Quadro baseado no reforço do comportamento para criar rotinas para as crianças autistas",
+    "icons": [
+        {
+            "src": "images/logo.png",
+            "type": "image/png",
+            "sizes": "514x514"
+        }
+    ]
 }
