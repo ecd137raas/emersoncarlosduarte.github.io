@@ -1,8 +1,7 @@
 {
     "short_name": "Duda",
     "name": "Duda Fumira",
-    "start_url": ".",
-    "scope": "/",
+    "start_url": "src/index.html",
     "display": "standalone",
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
