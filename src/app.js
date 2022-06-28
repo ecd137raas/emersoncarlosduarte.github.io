@@ -6,13 +6,13 @@ if (now.getHours() >= 00 && now.getHours() < 12) {
   const Saud = "Bom dia"
   itens(imgManha, MsgManha, Saud)
 } else if (now.getHours() >= 12 && now.getHours() < 18) {
-  const imgTarde = new Array("./src/assets/images/kodomo_girl_illust_16.png", "./src/assets/images/kodomo_girl_illust_soft15.png", "./src/assets/images/kodomo_girl_illust_08.png", "./src/assets/images/kodomo_girl_illust_18.png", "./src/assets/images/kodomo_girl_illust_12.png", "./src/assets/images/kodomo_illust-20.png");
-  const MsgTarde = new Array("Lavar as mãos", "Almoçar", "Escovar os dentes", "Arrumar os brinquedos", "Brincar la fora", "Passear ou Imaginação")
+  const imgTarde = new Array("./src/assets/images/kodomo_girl_illust_22.png", "./src/assets/images/kodomo_girl_illust_soft15.png", "./src/assets/images/kodomo_girl_illust_08.png", "./src/assets/images/kodomo_boy2_illust_soft_23.png", "./src/assets/images/kodomo_girl_illust_soft19.png", "./src/assets/images/antiseptic_asolution.png");
+  const MsgTarde = new Array("Tomar banho", "Almoçar", "Escovar os dentes", "Ir para a escola", "Voltar para casa", "Higienizar as mãos")
   const Saud = "Boa tarde"
   itens(imgTarde, MsgTarde, Saud)
 } else {
-  const imgNoite = new Array("./src/assets/images/kodomo_girl_illust_22.png", "./src/assets/images/kodomo_girl_illust_soft15.png", "./src/assets/images/kodomo_girl_illust_18.png", "./src/assets/images/kodomo_girl_illust_20.png", "./src/assets/images/kodomo_girl_illust_02.png");
-  const MsgNoite = new Array("Tomar banho", "Jantar", "Arrumar os brinquedos", "Assistir tv", "Hora de dormir")
+  const imgNoite = new Array("./src/assets/images/kodomo_girl_illust_16.png", "./src/assets/images/kodomo_girl_illust_soft15.png", "./src/assets/images/kodomo_girl_illust_18.png", "./src/assets/images/kodomo_girl_illust_20.png", "./src/assets/images/kodomo_girl_illust_02.png");
+  const MsgNoite = new Array("Lavar as mãos", "Jantar", "Arrumar os brinquedos", "Assistir tv", "Hora de dormir")
   const Saud = "Boa noite"
   itens(imgNoite, MsgNoite, Saud)
 }
